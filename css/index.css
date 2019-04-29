@@ -236,6 +236,9 @@ article {
   }
 }
 @media (max-width: 500px) {
+    .top {
+        margin-left: 60px;
+    }
   .top-content {
     flex-direction: column;
   }
@@ -255,10 +258,11 @@ article {
     margin: 0;
   }
   article {
-      margin-left: 30px;
+     align-items: center;
+      margin-left: 60px;
   }
   .footer {
-      margin-left: 30px;
+      margin-left: 60px;
   }
   ul {
     flex-direction: column;
@@ -267,11 +271,14 @@ article {
   li {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 20px 280px;
+    padding: 20px 320px;
 
     font-size: 30px;
   }
   .snippet {
     display: none;
+  }
+  .logo{
+      padding-bottom: 20px;
   }
 }
