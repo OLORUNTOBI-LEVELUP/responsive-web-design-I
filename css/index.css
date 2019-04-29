@@ -219,4 +219,17 @@ article {
     .top {
         justify-content: center;
     }
+    .navbar {
+        flex-direction: column-reverse;
+    }
+    body {
+        width: 700px;
+        margin: 0 auto;
+    }
+    ul {
+        margin: 0 auto;
+    }
+    .logo {
+        margin: 0 auto;
+    }
 }
