@@ -1,3 +1,284 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
+* {
+  box-sizing: border-box;
+}
 
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+}
+
+p {
+  line-height: 1.4;
+}
+
+body {
+  margin: 0 auto;
+  width: 800px;
+}
+.navbar {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-top: 20px;
+}
+li a {
+  color: black;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+}
+
+.top {
+  margin-top: 20px;
+  display: flex;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+
+}
+button {
+  width: 160px;
+}
+.top-content {
+  display: flex;
+}
+.bottom-content {
+  display: flex;
+  margin-bottom: 10px;
+}
+.copyright {
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+  
+}
+.middle-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
+}
+.right {
+  padding: 5px;
+}
+article {
+  padding: 10px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .snippet {
+    display: none;
+  }
+  .top {
+    justify-content: center;
+  }
+  .navbar {
+    flex-direction: column-reverse;
+  }
+  body {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .middle-img {
+    width: 700px;
+  }
+  ul {
+    margin: 0 auto;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+    .top {
+        margin-left: 60px;
+    }
+  .top-content {
+    flex-direction: column;
+  }
+  .bottom-content {
+    flex-direction: column;
+  }
+  .middle-img {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom:20px;
+    padding-top: 20px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  article {
+     align-items: center;
+      margin-left: 60px;
+  }
+  .footer {
+      margin-left: 60px;
+  }
+  ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+  li {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 320px;
+
+    font-size: 30px;
+  }
+  .snippet {
+    display: none;
+  }
+  .logo{
+      padding-bottom: 20px;
+  }
+}
